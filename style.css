@@ -30,8 +30,16 @@ img {
 #headers {
   color: #fff;
 }
+#title {
+  font-size: 50px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-weight: bold;
+}
 #subtitle {
   margin-bottom: 2em;
+  font-size: 35px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-weight: bold;
 }
 /* Number Input */
 #input-parent {
