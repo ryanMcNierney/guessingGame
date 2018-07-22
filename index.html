@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Guessing Game</title>
+
+  <!-- Bootstrap and CSS here-->
+  <link rel='stylesheet' type='text/css' href='style.css' />
+  <link rel='stylesheet' type='text/css' href='bootstrap.css' />
+
+</head>
+
+<body id='main-body' class='center'>
+
+  <div id='app' class='container'>
+
+    <div id='headers'>
+      <!-- Title and subtitles! -->
+      <h1 id='title'>Guessing Game!</h1>
+      <h2 id='subtitle'>Guess a number between 1-100</h2>
+    </div>
+
+    <div id='main'>
+      <div id='input-parent'>
+        <!-- Player's guess input, and submit button -->
+        <input id='player-input' type='number' placeholder='#' maxlength='3' autofocus=autofocus></input>
+        <button id='submit'>Guess!</button>
+      </div>
+
+      <div id='guesses'>
+        <!-- unordered list of guesses -->
+        <ul id='guess-list'>
+          <li class='guess'>-</li>
+          <li class='guess'>-</li>
+          <li class='guess'>-</li>
+          <li class='guess'>-</li>
+          <li class='guess'>-</li>
+        </ul>
+
+      </div>
+
+      <div id="menu-btns">
+        <!-- reset and hint buttons -->
+        <button id='reset' class='btn'>Reset</button>
+        <button id='hint' class='btn'>Hint</button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div id='footer' class='center'>
+    <div>
+      <div id='fullstack-logo' class='footer-element'>
+        <img src='fa-logo@2x.png'></img>
+      </div>
+
+      <div id='project-by' class='footer-element'>
+        <h4>Project by Ryan McNierney</h4>
+      </div>
+
+      <div id='gh-logo' class='footer-element'>
+        <img src='grace_hopper_academy.png'></img>
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-- js and jquery -->
+  <script src="jquery.js"></script>
+  <script src="guessingGame.js"></script>
+
+</body>
+
+</html>

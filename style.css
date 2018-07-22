@@ -1,0 +1,104 @@
+/* StyleSheet */
+html {
+  height: 100%;
+}
+body {
+  background-image: url("images/pr.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.center {
+  text-align: center;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+img {
+  display: inline;
+  width: 200px;
+  height: 100px;
+}
+#footer {
+  width: 100%;
+  border-top: solid 2px black;
+  background-color: white;
+  position: block;
+  bottom: 0;
+}
+/* Titles */
+#headers {
+  color: #fff;
+}
+#subtitle {
+  margin-bottom: 2em;
+}
+/* Number Input */
+#input-parent {
+  position: relative;
+  width: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4em;
+}
+#player-input {
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+  text-align: center;
+  padding-left: 15px;
+  font-size: 65px;
+}
+#submit {
+  position: absolute;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  top: 110px;
+  left: 155px;
+  background-color: #5cb85c;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+/* Guess List */
+#guesses {
+  margin-bottom: 2em;
+}
+.guess {
+  display: inline-block;
+  height: 70px;
+  width: 60px;
+  line-height: 70px;
+  font-size: 35px;
+  vertical-align: middle;
+  border-radius: 15%;
+  border: solid 1px grey;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+/* Menu Buttons */
+#menu-btns {
+  margin-bottom: 1em;
+}
+#reset {
+  border: solid 1px grey;
+  background-color: orange;
+}
+#hint {
+  border: solid 1px grey;
+  background-color: blue;
+  color: white;
+}
+/* Footer */
+#footer {
+  position: fixed;
+}
+.footer-element {
+  display: inline-block;
+}
+#fullstack-logo {
+  float: left;
+}
+#gh-logo {
+  float: right;
+}
